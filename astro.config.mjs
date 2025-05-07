@@ -1,19 +1,20 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import rehypeMermaid from 'rehype-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Enveloop Docs',
+			social: [{ icon: 'github', label: 'GitHub Repo', href: 'https://github.com/enveloophq/docsjs' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Getting Started',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Introduction to Enveloop', slug: 'getting-started/introduction-to-enveloop' },
 					],
 				},
 				{
@@ -23,4 +24,7 @@ export default defineConfig({
 			],
 		}),
 	],
+	markdown: {
+		rehypePlugins: [rehypeMermaid],
+	},
 });

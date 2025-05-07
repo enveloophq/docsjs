@@ -5,11 +5,10 @@ parent: Getting Started
 nav_order: 1
 ---
 
-# Introduction to Enveloop
-
 Enveloop helps you easily create, send, and keep track of the messages you generate from your apps. Once you sign up, it only takes a couple of minutes before you can start sending messages, either as test messages from Enveloop, from HTTP/cURL commands, or directly from your app.
 
 Enveloop's organizational structure is simple. It consists of: Teams, Projects, and Templates. When you sign up, we have you create your first **Team** and **Project**. All that's left is for you to create your first template.
+
 
 ```mermaid
 flowchart TD
