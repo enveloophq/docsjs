@@ -1,0 +1,155 @@
+---
+title: "Table"
+layout: default
+parent: Elements
+description: A powerful & flexible way to display structured data in your messages.
+---
+
+# 🔋 Table
+
+The table element allows you to add tabular data to your messages in Enveloop. Along with these data structure benefits, we've included additional functionality for iterating through your data and using conditional statements.
+
+The table element can be added to your message templates in Enveloop by adding a new **Element** inside a section and selecting **Table**.
+
+<div align="left">
+
+<figure><img src="/doc-images/Screenshot 2023-05-22 at 9.53.34 PM.png" alt="" width="134"><figcaption></figcaption></figure>
+
+</div>
+
+### Layout
+
+After adding a table element to your section, numerous options are available to adjust how the table looks and operates.
+
+#### Columns
+
+You can add up to 10 columns to a table. These columns will adjust their widths based on the container they are located in and the content they contain.
+
+#### Rows
+
+When inserting basic data for display, you can add multiple rows by clicking the Add Row button.\
+
+
+<figure><img src="/doc-images/Screenshot 2023-05-25 at 9.03.17 AM.png" alt=""><figcaption><p>Add a row to your table. Once added, you can specify the type of row it is.</p></figcaption></figure>
+
+OK, but what if you have dynamic content and don't know the number of rows you'll need to display it? Enveloop includes **Iterator Rows** and **Conditional Rows**.
+
+These row options will create new rows for you based on the size of an array or the conditions passed via your API call. We'll cover these in more detail below!
+
+#### Headers
+
+You can add one or more header rows to your table. Header rows, like footer rows, can be styled separately from the content rows of your table.
+
+#### Footers
+
+You can add one or more footer rows to your table. Footer rows, like header rows, can be styled separately from the content rows of your table.
+
+### Styling
+
+Like other elements available with Enveloop, Table elements can be easily styled to match the look and feel of your brand and the messaging you want to send out. There are numerous settings you can adjust to get the look you want, including:
+
+* text color
+* background color
+* font family / size
+* border color / style
+* padding / margin
+* line height
+
+Main content rows, header rows, and footer rows can all be styled separately, allowing you to create headers and footers that visually anchor your content.
+
+Header and footer rows, by default, will inherit the style of your main content rows. If you want to style them differently, you'll need to adjust the settings for each row type.
+
+### ## Row Types
+
+Now that we've discussed the layout and styling options available for tables, let's look at ways you can build out a table inside your message template. The neat part about all of this is that you can mix and match the different row types to create a table that works for your needs.
+
+#### Text Rows
+
+The simplest of rows, text rows allow you to add static content to your table. You can add as many text rows as you need by clicking the **Add Row** button. Even if you plan to include more dynamic content in your table, you can use these rows to quickly mockup how you'd like your data to look.
+
+#### Iterator Rows
+
+**Ok, now the fun stuff.** Iterator rows allow you to describe the shape of an array of objects that you'll pass to Enveloop via an API call. From there, Enveloop will programmatically create a new row for each object in the array before sending each message.
+
+**Here's an example:**
+
+Let's say you have an array of objects called **charges** that will display a weekly list of credit card transactions made by each of your employees on their company card.
+
+A simple version of a **charges** object may look like this:
+
+```json
+[
+  {
+    "date": "06/21/2023",
+    "description": "Lumber - Dan's Building Materials",
+    "amount": "5461.34",
+    "category": "Materials",
+  },
+  {
+    "date": "06/21/2023",
+    "description": "Johnny's Pizza",
+    "amount": "67.25",
+    "category": "Food",
+  },
+  {
+    "date": "06/23/2023",
+    "description": "Nails - Construction Warehouse",
+    "amount": "321.90",
+    "category": "Materials",
+  }
+]
+```
+
+Given weekly employee charges, you want to craft an email message that will be sent to the employee at the end of the week to list all transactions, allowing your employee to review them.
+
+You can accomplish this in Enveloop by adding an **Iterable Row**.
+
+<figure><img src="/doc-images/Screenshot 2023-05-25 at 9.48.46 AM.png" alt=""><figcaption><p>Add a row. Once added, you can convert it from "Text" to "Iterable".</p></figcaption></figure>
+
+When you do this, Enveloop will create a visual representation of that row in your table element, using [Markdown](../markdown-for-formatting.md) & [Mustache](../mustache-for-dynamic-content.md). You'll notice a highlighted "**iterable"** word in the row. This is a special place to type in the name of the array you will be passing to each message you send.
+
+In our example, we would type in **charges**.
+
+<figure><img src="/doc-images/fill-out-iterable-table.gif" alt="Assigning an object shape to an iterable row in Enveloop."><figcaption><p>Assigning an object shape to an iterable row in Enveloop.</p></figcaption></figure>
+
+Now that you have the name of the array assigned to your iterator row, you can add in the variables, from your object, you'd like to display in each column. The values for these variables will be rendered and displayed _per_ object (_and_ row) when the message is sent.
+
+If you have 10 charges in your array, Enveloop will create 10 rows when rendering your message, and insert all the data from your array.
+
+As the example shows, when you add in your variables, you need to use proper [Mustache](../mustache-for-dynamic-content.md) syntax.
+
+For example, given the object above, if we wanted to display the date, we would type in `{{{date}}}`. If we wanted to display the description, we would type in `{{{description}}}`. Enveloop will ensure that it displays the variables assigned to that object instance.
+
+Enveloop automatically handles variable scope when you list variables inside the confines of an iterator row.&#x20;
+
+#### **Testing Iterator Rows**
+
+Now that you have described the shape of your object to Enveloop, you can click on the **Test** button to move into a preview mode for your message template. On the right side of the screen, you'll notice a JSON representation of your object in the **Variables** area. Enveloop builds it out as you add information to the iterator row.
+
+<figure><img src="/doc-images/Screenshot 2023-05-25 at 10.49.23 AM.png" alt=""><figcaption><p>As you update test data in Enveloop, the email preview automatically updates to show you how your email will look to your users.</p></figcaption></figure>
+
+You can add test data to this object to see how your message will look when sent. You can continue to add new objects to the test array to scale the message to a level appropriate for testing purposes.
+
+Finally, you can click the **Send Email** button and Enveloop, using the test data you've provided, will send you an email with the rendered message -- making it easy to see your design+data, live, in the email client of your choice.
+
+Magical! 🪄
+
+### Conditional Rows
+
+Another special table row function in Enveloop is the **Conditional Row**. This row allows you to add conditional logic-specific rows in your table.
+
+When you select a Conditional Row, you'll be able to choose a variable name for your condition. This row will only appear in emails you send if that variable is **present** in your data. This can help you create a table that is as flexible as the data you use to build it.
+
+<figure><img src="/doc-images/Screenshot 2023-05-26 at 9.20.54 AM.png" alt="" width="375"><figcaption><p>A Conditional Row is another special row available in Enveloop.</p></figcaption></figure>
+
+**Here's an example:**
+
+You want to use a footer row to show calculated sales tax in a sales confirmation email. However, if you have a scenario that does not generate sales tax, you don't want to display the footer, given that you won't be passing sales tax info to the message.
+
+<figure><img src="/doc-images/Screenshot 2023-05-26 at 9.35.19 AM.png" alt=""><figcaption><p>We use the sales_tax variable as a conditional value to determine if our row that shows Sales Tax should be included in our message. </p></figcaption></figure>
+
+#### Testing Conditional Rows
+
+Like Iterable Rows, you can test conditional rows by clicking the **Test** button to move into Preview mode. From here, you can use the **Test Variables** area to add or remove the value of the `sales_tax` variable and watch how the rendered message changes.&#x20;
+
+You can use Iterator and Conditional rows in your Header and Footer areas as well!

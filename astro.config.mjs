@@ -23,8 +23,20 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Product Guides',
+					autogenerate: { directory: 'product-guides' },
+				},
+				{
+					label: 'Settings',
+					autogenerate: { directory: 'settings' },
+				},
+				{
+					label: 'Integrations',
+					autogenerate: { directory: 'integrations' },
+				},
+				{
+					label: 'Company',
+					autogenerate: { directory: 'company' },
 				},
 			],
 		}),
