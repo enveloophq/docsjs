@@ -15,6 +15,11 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Introduction to Enveloop', slug: 'getting-started/introduction-to-enveloop' },
+						{ label: 'Core Features', slug: 'getting-started/core-features' },
+						{ label: 'Creating a Template', slug: 'getting-started/creating-a-template' },
+						{ label: 'Deploying Your First Message', slug: 'getting-started/deploying-your-first-message' },
+						{ label: 'Formatting Dynamic Content', slug: 'getting-started/formatting-dynamic-content' },
+						{ label: 'Adding a Sending Domain', slug: 'getting-started/adding-a-sending-domain' },
 					],
 				},
 				{
