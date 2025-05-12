@@ -1,10 +1,7 @@
 ---
 title: "Terms of Service"
-layout: default
-parent: Company
+description: "Terms of Service for the Enveloop.com application and web site."
 ---
-
-# Terms of Service
 
 Welcome to enveloop.com, the website and online service of BuildPlane Corporation (d.b.a "Enveloop") (“Enveloop,” “we,” or “us”). This page explains the terms by which you may use our online services, website, and software provided on or in connection with the service (collectively, the “Service”). By accessing or using the Service, or by clicking a button or checking a box marked “I Agree” (or something similar), you signify that you have read, understood, and agree to be bound by these Terms of Service (this “Agreement” or “Terms of Service”) and to the collection and use of your information as set forth in our Privacy Policy \[[https://docs.enveloop.com/company/privacy-policy](https://docs.enveloop.com/company/privacy-policy)], whether or not you are a registered user of our Service. Enveloop reserves the right to modify these terms from time to time. This Agreement applies to all visitors, users, and others who access the Service (“Users”).&#x20;
 

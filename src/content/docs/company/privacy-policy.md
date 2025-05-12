@@ -1,10 +1,7 @@
 ---
 title: "Privacy Policy"
-layout: default
-parent: Company
+description: "Privacy Policy for the Enveloop.com application."
 ---
-
-# Privacy Policy
 
 BuildPlane Corporation (d.b.a "Enveloop") (“Enveloop,” “we,” “our” or “us”) is committed to protecting your privacy.  This Privacy Policy explains how Enveloop collects, uses, and shares the personal information we collect from visitors and users of our online services, including the websites and mobile applications that post or link to this Privacy Policy (the “Website”).  By accessing or using our Website, you signify that you have read, understood and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service.
 
@@ -82,7 +79,7 @@ Opting-out through the NAI's and DAA's online resources will only opt-out a user
 
 ### Data Protection
 
-Enveloop cares about the security of your information and uses commercially reasonable physical, technical and organizational measures designed to preserve the integrity and security of all information we collect.  However, no security system is impenetrable and we cannot guarantee the security of our systems 100%.  In the event that any information under our control is compromised as a result of a breach of security, we will take reasonable steps to investigate the situation and where appropriate, notify those individuals whose information may have been compromised and take other steps, in accordance with any applicable laws and regulations.&#x20;
+Enveloop cares about the security of your information and uses commercially reasonable physical, technical and organizational measures designed to preserve the integrity and security of all information we collect.  However, no security system is impenetrable and we cannot guarantee the security of our systems 100%.  In the event that any information under our control is compromised as a result of a breach of security, we will take reasonable steps to investigate the situation and where appropriate, notify those individuals whose information may have been compromised and take other steps, in accordance with any applicable laws and regulations.
 
 We store data on servers in the United States or any other country in which Enveloop or its affiliates, subsidiaries, agents or contractors maintain facilities. If you are located in the European Union or other regions with laws governing data collection and use that may differ from United States law, please note that your personal information may be transferred to a country and jurisdiction that does not have the same data protection laws as your jurisdiction.
 
@@ -104,10 +101,5 @@ We reserve the right to change this Privacy Policy from time to time in our sole
 
 ### Contact Us
 
-For additional inquiries about this Privacy Policy, please send us an email at support@enveloop.com or contact us at:
-
-Enveloop\
-1059 Country Club Circle\
-Birmingham, AL 35244\
-‪(205) 547-3096
+For additional inquiries about this Privacy Policy, please send us an email at support@enveloop.com.
 
