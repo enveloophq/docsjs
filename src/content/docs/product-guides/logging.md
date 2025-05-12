@@ -1,10 +1,7 @@
 ---
 title: "Logging"
-layout: default
-parent: Product Guides
+description: "When creating Enveloop, we wanted to re-imagine how email and text message logging. Efficiency & speed-to-answer was the primary focus."
 ---
-
-# Logging
 
 When creating Enveloop, we wanted to re-imagine how email and text message logging. Efficiency & speed-to-answer was the primary focus.
 

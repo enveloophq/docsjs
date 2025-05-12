@@ -1,10 +1,7 @@
 ---
 title: "Themes"
-layout: default
-parent: Product Guides
+description: "Enveloop Themes allow you to create and mange the usage of colors across the message templates that you host on Enveloop. Themes extend the design capabilities of Enveloop templates in two powerful ways:"
 ---
-
-# Themes
 
 Enveloop Themes allow you to create and mange the usage of colors across the message templates that you host on Enveloop. Themes extend the design capabilities of Enveloop templates in two powerful ways:
 
@@ -13,11 +10,11 @@ Enveloop Themes allow you to create and mange the usage of colors across the mes
 
 We'll share additional details on both below.
 
-## Getting Started with Themes
+### Getting Started with Themes
 
 When you open a email template, the themes area is located at the top of the Template Settings panel -- depending on if you have an existing theme or not, you may see colors for a _template_ or colors for a _theme_.
 
-### Creating a New Theme
+#### Creating a New Theme
 
 If you create a blank email template, Enveloop will include basic colors (background, text, etc.) in the template. So, even a _blank_ template is has some basic colors available. Therefore, in Template Settings, you'll notice colors located in your Template colors.&#x20;
 
@@ -37,7 +34,7 @@ Select the colors (or the plus-sign icon) and you'll see New Theme, with the col
 
 Each color in a theme, as you see here, will need to have a name. This serves as an easy method to reference what the color is used for (hyperlinks, text background, etc.), but it can also serve as reference to that color and color usage via the Enveloop API. We'll talk more about that later in this document.
 
-### Adding Theme Colors
+#### Adding Theme Colors
 
 Now that your theme is created, you can easily add additional colors by clicking the plus button. It will insert a new row with a color selector and an available name.
 
@@ -47,7 +44,7 @@ Now that your theme is created, you can easily add additional colors by clicking
 
 To remove a color, choose the trash can icon and click **Save Changes**.
 
-### **Add a Theme to Existing Templates**
+#### Add a Theme to Existing Templates
 
 If you have _existing_ templates inside Enveloop, we make it easy to get started by _auto-detecting_ all the colors you currently use in a template and attaching them to a theme art board. From here, you can click **Create Theme** and your colors will be added to a theme for the template.
 
@@ -61,7 +58,7 @@ We'll attempt to provide a variable name for each color, based on how it is used
 
 </div>
 
-### Applying Theme Colors
+#### Applying Theme Colors
 
 Now that you have a theme for your template, when you set colors for various items in your template (text, sections, images, etc.), template colors will be available in the color picker for the object you are editing.
 
@@ -75,7 +72,7 @@ Now that you have a theme for your template, when you set colors for various ite
 
 Now that you have a theme color applied, whenever you update your template theme, all the elements that use that theme color will be updated with the new color.
 
-## Color Variables / Dynamic Themes
+#### Color Variables / Dynamic Themes
 
 As you noticed in the previous sections, all the colors in a theme have a name assigned to them. This name, while useful when assigning colors to sections and elements, is also, a variable name that is now accessible when you are using the Enveloop API.
 
@@ -85,30 +82,21 @@ The immediate benefit is that, via these variables and the API, you now have rea
 
 Additional information about how to use your color variables in an API call is located in the [Enveloop API Docs](../enveloop-api/core-api-endpoints/post-messages.md).
 
-## Additional Capabilities
-
-#### Copy and Paste Themes
+#### Additional Capabilities
 
 Once you have created a theme you like, you can easily implement it across multiple templates. In both the Template Config options and on the actual theme, Enveloop gives you an option to copy the theme.
 
-<div align="center">
-
-![Theme Colors Copy/Paste](/images/Screenshot%202024-10-25%20at%203.29.59%20PM.png)
-
+![Theme Colors Copy Paste](/images/themes-copy-paste-color-in-enveloop.png)
 *You can copy theme colors & names and paste the theme into...*
-
-</div>
 
 Once copied, you can navigate to a different template and a floating button, located in the bottom of your browser window, allows you to click and paste the theme into your new template. After applying the the theme, select the Save Changes button to save the updated theme in your email template.
 
-<div align="center">
-
-![Apply Button for Themes](/images/Screenshot%202024-10-25%20at%203.28.07%20PM.png)
+![Apply Button for Themes](/images/themes-apply-theme-using-button-in-enveloop.png)
 
 *The Apply button will follow you around, allowing you to paste themes from one template to another template.*
 
-</div>
-
-**Note:** Pasting in a theme in is non-destructive. So, you may have to clear out unneeded color artifacts after applying a theme.
+::::tip
+Pasting in a theme in is non-destructive. So, you may have to clear out unneeded color artifacts after applying a theme.
+::::
 
 &#x20;

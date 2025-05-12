@@ -1,10 +1,7 @@
 ---
 title: "Monitoring"
-layout: default
-parent: Product Guides
+description: "To use Enveloop Monitoring, you need to have [set up a Sending Domain](../getting-started/adding-a-sending-domain.html) with us. It only takes a moment and we step you through everything!"
 ---
-
-# Monitoring
 
 To use Enveloop Monitoring, you need to have [set up a Sending Domain](../getting-started/adding-a-sending-domain.html) with us. It only takes a moment and we step you through everything!
 

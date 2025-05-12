@@ -1,16 +1,13 @@
 ---
 title: "Using Shared Sections"
-layout: default
-parent: Product Guides
+description: "Use Shared Sections to create global groups of content/styles – linked inside of multiple message templates."
 ---
-
-# Using Shared Sections
 
 **Shared Sections** create _global_ groups of content/styles – linked inside of multiple message templates. For example, it's common to have all the messages you send out use the same header information and design.
 
 In Enveloop, you can craft a message header, save it as a Shared Section, and add it to all your messages. When you update your header, the change is automatically pushed to all linked message templates.
 
-### Creating a Shared Section
+#### Creating a Shared Section
 
 Before you can create a Shared Section, you'll need to create a section. 😄 You can create the base section inside one of your message templates.
 
@@ -30,13 +27,13 @@ You can access Shared Sections for a project using the navigation in the left-si
 
 **Success!** We've now created a Shared Section. You can use this content in your message templates and have global control of the content and styles inside the section. Let's talk briefly about how to do that!
 
-### Linking a Shared Section to a Template
+#### Linking a Shared Section to a Template
 
 Now that you have a Shared Section available, adding it to a message template is easy -- just like adding a regular section. Click the **Add Section** button in your template, and you'll have a **Shared Sections** tab available. Select the shared section and it's added to your template. Order the section in the list of sections in your template and you're set!
 
 ![Add Saved Section to Template](/images/add-saved-section-to-template.gif)
 
-### Unlinking a Shared Section
+#### Unlinking a Shared Section
 
 You can remove a Shared Section by clicking the Trash icon. Deleting a shared section from your template will not delete it globally – it simply unlinks it from your message template.
 
@@ -46,6 +43,6 @@ This allows you to keep the content and styles of that global section in your te
 
 ![Shared Sections Screenshot 3](/images/Screenshot%202023-01-30%20at%206.18.43%20PM.png)
 
-### That's It!
+#### That's It!
 
 Shared Sections are a super-easy way to create common areas that you use in multiple message templates. Plus, these special sections allow you to make an update in one spot and have all your templates immediately updated.

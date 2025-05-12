@@ -1,10 +1,7 @@
 ---
 title: "Markdown for Formatting"
-layout: default
-parent: Product Guides
+description: "Instead of asking our users to battle WYSIWYG editors, common in many apps, we have provided full support for Markdown."
 ---
-
-# Markdown for Formatting
 
 Instead of asking our users to battle WYSIWYG editors, common in many apps, we have provided full support for Markdown.&#x20;
 

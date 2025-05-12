@@ -1,11 +1,7 @@
 ---
 title: "Mustache for Dynamic Content"
-layout: default
-parent: Product Guides
 description: Use Mustache to inject dynamic content into your Enveloop messages.
 ---
-
-# Mustache for Dynamic Content
 
 Enveloop supports [Mustache](https://mustache.github.io/) in our messaging platform -- you will use this whenever you use variables or dynamic content in your messages. Also, this is a good way to inject some basic logic. Below are a few examples:
 

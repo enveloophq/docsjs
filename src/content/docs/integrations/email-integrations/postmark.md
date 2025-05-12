@@ -1,15 +1,11 @@
 ---
 title: "Postmark"
-layout: default
-parent: Email Integrations
 description: Set up Enveloop to use Postmark as a backend message platform.
 ---
 
-# Postmark
-
 These docs assume you have a [Postmark](https://postmarkapp.com) and [Enveloop](https://app.enveloop.com) account. If you don't have one of those, they're super-easy to get.
 
-### Setting up Postmark
+#### Setting up Postmark
 
 Before we dive into Enveloop, let's spend some time making sure that your Postmark environment is set up properly. If you're familiar with Postmark, you may want to skip over it.
 
@@ -27,7 +23,7 @@ Once you're logged into Postmark, you'll need to do the following:
    \
    In the settings for the stream, Postmark provides a **Server API Token**. This allows you to send messages via this specific server. Copy this -- you'll need it add it to Enveloop in just a moment.
 
-### Setting up Enveloop
+#### Setting up Enveloop
 
 Now that you have your server and stream set up in Postmark, let's add your key to Enveloop. From there, you'll be all set to send messages from Enveloop, via your Postmark account.
 
@@ -49,13 +45,13 @@ Once you are logged into Enveloop, you'll need to do to the following:
    \
    Don't worry, this is just the default address. You can send from additional email addresses based on your API call.
 
-### 🎉  Success
+#### 🎉  Success
 
 You should be good to go! From here, you can go to the **Deploy** tab of a _published_ message template, select either the Sandbox or Production code snippets and try it out!
 
 
 
-### 🪄 Tips
+#### 🪄 Tips
 
 If you don't have a lot of experience with Postmark as a backend message provider, here are a couple of tips to help you avoid feelings of confusion when you are just starting out.\
 

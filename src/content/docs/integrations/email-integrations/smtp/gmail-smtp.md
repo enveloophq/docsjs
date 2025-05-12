@@ -1,17 +1,13 @@
 ---
 title: "Gmail SMTP"
-layout: default
-parent: SMTP
+description: "Set up Enveloop to use Gmail SMTP to send messages."
 ---
-
-# Gmail SMTP
 
 **Please note:** Your normal Gmail password will not work when setting up Gmail SMTP. Google requires you to set up an "App" password.
 
-\
 Google will be sunsetting App Passwords in September 2024. **Enveloop will be launching full OAuth support for Gmail SMTP soon.**
 
-### Step 1: Create an "App Password" in your Google Account.
+#### Step 1: Create an "App Password" in your Google Account.
 
 You will not be able to login with your normal Gmail password. For security reasons you will need to setup an **App password** used to authenticate Enveloop to Google. Here's how to do this:
 
@@ -24,7 +20,7 @@ You will not be able to login with your normal Gmail password. For security reas
 
 From here, Google will present you with a 16-digit password it created for you. You need to save this password in a safe place. We'll use it in an upcoming step.
 
-### **Step 2: Add the Gmail SMTP Integration to your Enveloop Project**
+#### Step 2: Add the Gmail SMTP Integration to your Enveloop Project
 
 Assuming your are logged into Enveloop, use the following steps to configure Gmail SMTP.
 
@@ -33,7 +29,7 @@ Assuming your are logged into Enveloop, use the following steps to configure Gma
 3. In the tabs at top, click the Integrations tab.
 4. In Third-Party Email Provider, click the **Setup** button for SMTP.
 
-### **Step 3: Configure your SMTP Provider**
+#### Step 3: Configure your SMTP Provider
 
 Use the following settings to successfully configure your Gmail SMTP provider.
 
@@ -46,7 +42,7 @@ Use the following settings to successfully configure your Gmail SMTP provider.
 
 When using Gmail SMTP you can only send email from the signed in user. Google will ignore the `from` field if you pass anything different.
 
-## Step 4: Test it out!
+#### Step 4: Test it out!
 
 Ok, all settings should now be good. Nice work! Now, let's return to an email template and try it out.&#x20;
 
@@ -55,4 +51,4 @@ Ok, all settings should now be good. Nice work! Now, let's return to an email te
 3. In the settings on the right, choose your **Production** key. _(This will add your production key into the available code snippets.)_
 4. For simplicity, copy the **cURL command**, paste into a terminal, then go check the email address you sent the message to.
 
-Hopefully, success! If not, let us know at: <mark style="color:yellow;">support@enveloop.com</mark>. Happy to help!
+Hopefully, success! If not, let us know at: support@enveloop.com. Happy to help!
