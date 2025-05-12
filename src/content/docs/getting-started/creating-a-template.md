@@ -1,16 +1,13 @@
 ---
 title: "Creating a Template"
-layout: default
-parent: Getting Started
 description: Message templates are the core of Enveloop. Learn how to build one!
-nav_order: 2
 ---
 
 Creating your first template is simple. Inside a project, click the **Add Template** button to get started. From there, you can create a _Blank_ (or empty) Template or choose one of our _Designed_ transactional templates and modify it based on your needs.
 
 After you name the template, you'll move to the Template Builder.
 
-### Template Builder
+#### Template Builder
 
 Message templates can be as simple or detailed as required for your use case. A template will have one or more sections. A section will have one or more elements.
 
@@ -25,7 +22,9 @@ Sections are layout containers for elements. They can also have styling (color, 
 
 ![Enveloop Template Sections](/docs-images/Screen%20Shot%202022-12-14%20at%2010.19.13%20PM.png)
 
-*Each Section in a template corresponds to a content area. As you roll over each section in the list to the right, the corresponding section highlights on the the left.*
+::::tip
+Each Section in a template corresponds to a content area. As you roll over each section in the list to the right, the corresponding section highlights on the the left.
+::::
 
 #### Elements
 
@@ -43,7 +42,9 @@ Use the **plus (+) icon** in the Elements header to add new elements to a sectio
 
 ![Enveloop Template Elements](/docs-images/Screen%20Shot%202022-12-14%20at%2010.23.27%20PM.png)
 
-*Similar to a Section, Elements (within a section) can have styling, and as you roll over the list of elements, the corresponding visual on the left highlights. You can click to edit the content.*
+::::tip
+Similar to a Section, Elements (within a section) can have styling, and as you roll over the list of elements, the corresponding visual on the left highlights. You can click to edit the content.
+::::
 
 ### Building Out Your Message
 

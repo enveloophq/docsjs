@@ -1,8 +1,6 @@
 ---
 title: "Enveloop Features"
-layout: default
-parent: Getting Started
-nav_order: 2
+description: "Learn about Enveloop's core features and how to use them."
 ---
 
 ### Message Builder
