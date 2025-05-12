@@ -11,7 +11,7 @@ So, while a "text" element can have color, padding, and alignment, you still wan
 
 The "Content" field for a text element allows you to inject markdown.
 
-![Using Markdown](/docs-images/enveloop-using-markdown.png)
+![Using Markdown](/images/enveloop-using-markdown.png)
 
 Use Markdown to accurately describe text. It's better than fighting with endless WYSIWYG editors that never format it quite right.
 
@@ -26,7 +26,7 @@ In addition to formatting your message content, providing dynamic or custom/pers
 
 Using **Mustache**, you can inject variables into your content with the use of curly-brackets. As you add in new variables to your content, Enveloop will automatically begin tracking them, providing you ways to test, updated code snippets, etc. This will be discussed in more detail in later sections.
 
-![Using Mustache](/docs-images/enveloop-using-mustache-for-dynamic-content.png)
+![Using Mustache](/images/enveloop-using-mustache-for-dynamic-content.png)
 
 In the builder mode, variables will be displayed as variables. However, you can move to the "Test" mode and, after providing some inputs, can see what live data will look like in the message.
 

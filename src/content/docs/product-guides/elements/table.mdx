@@ -7,7 +7,7 @@ The table element allows you to add tabular data to your messages in Enveloop. A
 
 The table element can be added to your message templates in Enveloop by adding a new **Element** inside a section and selecting **Table**.
 
-![Table Element](/docs-images/table-element-in-enveloop.png)
+![Table Element](/images/table-element-in-enveloop.png)
 
 #### Layout
 
@@ -21,7 +21,7 @@ You can add up to 10 columns to a table. These columns will adjust their widths 
 
 When inserting basic data for display, you can add multiple rows by clicking the Add Row button.
 
-![Add a Row](/doc-images/table-add-a-row-in-enveloop.png)
+![Add a Row](/images/table-add-a-row-in-enveloop.png)
 
 OK, but what if you have dynamic content and don't know the number of rows you'll need to display it? Enveloop includes **Iterator Rows** and **Conditional Rows**.
 
@@ -95,13 +95,13 @@ Given weekly employee charges, you want to craft an email message that will be s
 
 You can accomplish this in Enveloop by adding an **Iterable Row**.
 
-![Add a row. Once added, you can convert it from "Text" to "Iterable".](/doc-images/table-add-iterable-row-in-enveloop.png)
+![Add a row. Once added, you can convert it from "Text" to "Iterable".](/images/table-add-iterable-row-in-enveloop.png)
 
 When you do this, Enveloop will create a visual representation of that row in your table element, using [Markdown](../markdown-for-formatting.md) & [Mustache](../mustache-for-dynamic-content.md). You'll notice a highlighted "**iterable"** word in the row. This is a special place to type in the name of the array you will be passing to each message you send.
 
 In our example, we would type in **charges**.
 
-![Assigning an object shape to an iterable row in Enveloop.](/doc-images/fill-out-iterable-table.gif)
+![Assigning an object shape to an iterable row in Enveloop.](/images/fill-out-iterable-table.gif)
 
 Now that you have the name of the array assigned to your iterator row, you can add in the variables, from your object, you'd like to display in each column. The values for these variables will be rendered and displayed _per_ object (_and_ row) when the message is sent.
 
@@ -117,7 +117,7 @@ Enveloop automatically handles variable scope when you list variables inside the
 
 Now that you have described the shape of your object to Enveloop, you can click on the **Test** button to move into a preview mode for your message template. On the right side of the screen, you'll notice a JSON representation of your object in the **Variables** area. Enveloop builds it out as you add information to the iterator row.
 
-![As you update test data in Enveloop, the email preview automatically updates to show you how your email will look to your users](/doc-images/table-preview-dynamic-content.png)
+![As you update test data in Enveloop, the email preview automatically updates to show you how your email will look to your users](/images/table-preview-dynamic-content.png)
 
 You can add test data to this object to see how your message will look when sent. You can continue to add new objects to the test array to scale the message to a level appropriate for testing purposes.
 
@@ -131,15 +131,13 @@ Another special table row function in Enveloop is the **Conditional Row**. This 
 
 When you select a Conditional Row, you'll be able to choose a variable name for your condition. This row will only appear in emails you send if that variable is **present** in your data. This can help you create a table that is as flexible as the data you use to build it.
 
-![Test Image](/doc-images/table-example-of-conditional-row-in-enveloop.png)
-
-![A Conditional Row is another special row available in Enveloop](/doc-images/table-example-of-conditional-row-in-enveloop.png)
+![A Conditional Row is another special row available in Enveloop](/images/table-example-of-conditional-row-in-enveloop.png)
 
 **Here's an example:**
 
 You want to use a footer row to show calculated sales tax in a sales confirmation email. However, if you have a scenario that does not generate sales tax, you don't want to display the footer, given that you won't be passing sales tax info to the message.
 
-![We use the sales_tax variable as a conditional value to determine if our row that shows Sales Tax should be included in our message](/doc-images/table-use-a-conditional-row-in-enveloop.png)
+![We use the sales_tax variable as a conditional value to determine if our row that shows Sales Tax should be included in our message](/images/table-use-a-conditional-row-in-enveloop.png)
 
 #### Testing Conditional Rows
 

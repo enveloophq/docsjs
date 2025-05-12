@@ -23,7 +23,7 @@ If you create a blank email template, Enveloop will include basic colors (backgr
 
 <div align="center">
 
-![Theme Example 1](/docs-images/image%20(6).png)
+![Theme Example 1](/images/image%20(6).png)
 
 </div>
 
@@ -31,7 +31,7 @@ Select the colors (or the plus-sign icon) and you'll see New Theme, with the col
 
 <div align="center">
 
-![Theme Example 2](/docs-images/image%20(7).png)
+![Theme Example 2](/images/image%20(7).png)
 
 </div>
 
@@ -41,7 +41,7 @@ Each color in a theme, as you see here, will need to have a name. This serves as
 
 Now that your theme is created, you can easily add additional colors by clicking the plus button. It will insert a new row with a color selector and an available name.
 
-![Add/Edit Theme Colors](/docs-images/add-a-theme-color.gif)
+![Add/Edit Theme Colors](/images/add-a-theme-color.gif)
 
 *Easily add/edit theme colors by opening the theme.*
 
@@ -55,7 +55,7 @@ We'll attempt to provide a variable name for each color, based on how it is used
 
 <div align="center">
 
-![Theme Example 3](/docs-images/image%20(5).png)
+![Theme Example 3](/images/image%20(5).png)
 
 *Adding a theme to an existing template? Enveloop will find and list all the colors you are using in your template, making it a one-click effort to create a theme.*
 
@@ -67,7 +67,7 @@ Now that you have a theme for your template, when you set colors for various ite
 
 <div align="center">
 
-![Select/Apply Theme Color](/docs-images/select-apply-theme-color.gif)
+![Select/Apply Theme Color](/images/select-apply-theme-color.gif)
 
 *After creating a theme, theme colors are available to you in all the color picker dropdowns.*
 
@@ -93,7 +93,7 @@ Once you have created a theme you like, you can easily implement it across multi
 
 <div align="center">
 
-![Theme Colors Copy/Paste](/docs-images/Screenshot%202024-10-25%20at%203.29.59%20PM.png)
+![Theme Colors Copy/Paste](/images/Screenshot%202024-10-25%20at%203.29.59%20PM.png)
 
 *You can copy theme colors & names and paste the theme into...*
 
@@ -103,7 +103,7 @@ Once copied, you can navigate to a different template and a floating button, loc
 
 <div align="center">
 
-![Apply Button for Themes](/docs-images/Screenshot%202024-10-25%20at%203.28.07%20PM.png)
+![Apply Button for Themes](/images/Screenshot%202024-10-25%20at%203.28.07%20PM.png)
 
 *The Apply button will follow you around, allowing you to paste themes from one template to another template.*
 

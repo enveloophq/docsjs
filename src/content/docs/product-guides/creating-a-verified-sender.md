@@ -20,7 +20,7 @@ Let's take a brief moment to look at how this works!
 
 After logging into Enveloop, go the **Mail Settings**, located in the left-side navigation, for the team/project you want to add a sender to.
 
-![Sender ID Step 1](/docs-images/sender-id-01.png)
+![Sender ID Step 1](/images/sender-id-01.png)
 
 Once in mail settings, click on the **Add Sender ID** button.
 

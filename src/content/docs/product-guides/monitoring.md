@@ -29,7 +29,7 @@ Enveloop provides this monitoring as part of your account, allowing you to be al
 
 To use Enveloop Monitoring, go to the **Monitoring** section, located in the left-side navigation.
 
-![Monitoring Step 1](/docs-images/monitoring.png)
+![Monitoring Step 1](/images/monitoring.png)
 
 Some areas to point out:
 
@@ -45,7 +45,7 @@ For a given date, view high-level numbers for DMARC reports  you have received f
 
 You can view, in detail, a DMARC response received for your domain and the mail server that issued it. Enveloop Monitoring provides a quick view for DMARC and DKIM compliance -- plus, for each report received, you can click the report to view a visual breakdown _(including source IP and source domain)_.
 
-![Monitoring Step 2](/docs-images/monitoring-02.png)
+![Monitoring Step 2](/images/monitoring-02.png)
 
 ***
 

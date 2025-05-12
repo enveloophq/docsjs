@@ -20,7 +20,7 @@ graph LR
 
 Sections are layout containers for elements. They can also have styling (color, layout, padding).&#x20;
 
-![Enveloop Template Sections](/docs-images/Screen%20Shot%202022-12-14%20at%2010.19.13%20PM.png)
+![Enveloop Template Sections](/images/Screen%20Shot%202022-12-14%20at%2010.19.13%20PM.png)
 
 ::::tip
 Each Section in a template corresponds to a content area. As you roll over each section in the list to the right, the corresponding section highlights on the the left.
@@ -40,7 +40,7 @@ These atomic elements are the building blocks required to create your message. T
 
 Use the **plus (+) icon** in the Elements header to add new elements to a section.
 
-![Enveloop Template Elements](/docs-images/Screen%20Shot%202022-12-14%20at%2010.23.27%20PM.png)
+![Enveloop Template Elements](/images/Screen%20Shot%202022-12-14%20at%2010.23.27%20PM.png)
 
 ::::tip
 Similar to a Section, Elements (within a section) can have styling, and as you roll over the list of elements, the corresponding visual on the left highlights. You can click to edit the content.

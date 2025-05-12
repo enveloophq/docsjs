@@ -46,14 +46,14 @@ Often, as you are supporting your customers, what you need to see is "How did th
 
 Enveloop makes that part easy. For all the messages that you send, you can easily see the rendered version of the message that was sent to a specific recipient. This lets you know if an email or text was sent correctly and allows you to reference specific areas of the message when providing support to your users/customers.
 
-![Rendered Customer View in Logging](/docs-images/rendered-customer-view-in-enveloop-logging.png)
+![Rendered Customer View in Logging](/images/rendered-customer-view-in-enveloop-logging.png)
 
 Enveloop also includes a **Plain Text** option -- allowing you to ensure that your messages look best all the various ways they may be displayed.
 
-![Plain Text Email in Logging](/docs-images/plain-text-email-in-enveloop-logging.png)
+![Plain Text Email in Logging](/images/plain-text-email-in-enveloop-logging.png)
 
 ### Variable Payloads
 
 Along with a rendered customer view, you can also quickly view the data payload, in JSON format, that was sent to the Enveloop API when you made your original message call. This allows you to confirm data outside of all the content and design of a message.
 
-![Variables in Logging](/docs-images/variables-in-enveloop-logging.png)
+![Variables in Logging](/images/variables-in-enveloop-logging.png)

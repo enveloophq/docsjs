@@ -14,19 +14,19 @@ In Enveloop, you can craft a message header, save it as a Shared Section, and ad
 
 Before you can create a Shared Section, you'll need to create a section. 😄 You can create the base section inside one of your message templates.
 
-![Shared Sections Screenshot 1](/docs-images/Screenshot%202023-01-30%20at%203.06.01%20PM.png)
+![Shared Sections Screenshot 1](/images/Screenshot%202023-01-30%20at%203.06.01%20PM.png)
 
 Once you have built out a section using the Enveloop message builder, from the Section options, you can click **Add to Shared Sections**. Give the section a name and you are all set.
 
 In the example below, you can see that we have created a header area, so we can now transform it into a Shared Section.
 
-![Create Saved Section](/docs-images/create-saved-section.gif)
+![Create Saved Section](/images/create-saved-section.gif)
 
 The content of your section no longer exists in your template, but is now _linked_ to it. The Section options you normally see are hidden (you'll need to edit the new Shared Section to see these settings).
 
 You can access Shared Sections for a project using the navigation in the left-side panel.
 
-![Shared Sections Screenshot 2](/docs-images/Screenshot%202023-01-30%20at%204.10.16%20PM.png)
+![Shared Sections Screenshot 2](/images/Screenshot%202023-01-30%20at%204.10.16%20PM.png)
 
 **Success!** We've now created a Shared Section. You can use this content in your message templates and have global control of the content and styles inside the section. Let's talk briefly about how to do that!
 
@@ -34,7 +34,7 @@ You can access Shared Sections for a project using the navigation in the left-si
 
 Now that you have a Shared Section available, adding it to a message template is easy -- just like adding a regular section. Click the **Add Section** button in your template, and you'll have a **Shared Sections** tab available. Select the shared section and it's added to your template. Order the section in the list of sections in your template and you're set!
 
-![Add Saved Section to Template](/docs-images/add-saved-section-to-template.gif)
+![Add Saved Section to Template](/images/add-saved-section-to-template.gif)
 
 ### Unlinking a Shared Section
 
@@ -44,7 +44,7 @@ Also, if you place a Shared Section into a message template and would like to ma
 
 This allows you to keep the content and styles of that global section in your template, but it will now be unique again.
 
-![Shared Sections Screenshot 3](/docs-images/Screenshot%202023-01-30%20at%206.18.43%20PM.png)
+![Shared Sections Screenshot 3](/images/Screenshot%202023-01-30%20at%206.18.43%20PM.png)
 
 ### That's It!
 

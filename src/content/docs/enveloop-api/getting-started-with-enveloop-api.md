@@ -13,7 +13,7 @@ To connect to the Enveloop API you will need to create an **API Token** for the 
 
 A **Project** in Enveloop represents one of your **apps**. Each project has its own templates and API tokens/settings.
 
-![Project settings page](/docs-images/Screen%20Shot%202022-12-08%20at%2011.21.29%20PM.png)
+![Project settings page](/images/Screen%20Shot%202022-12-08%20at%2011.21.29%20PM.png)
 
 *Project settings page*
 
@@ -24,7 +24,7 @@ There are two types of API tokens associated with a project:
 
 **Production** tokens begin with `live_` and will send _actual_ messages with the configured provider. **Sandbox** token begin with `test_` and only mock the sending action. Therefore, calls made from your app, using your sandbox token, do not connect to the provider on the project.&#x20;
 
-![Enveloop Sandbox Inbox](/docs-images/image (3).png)
+![Enveloop Sandbox Inbox](/images/image (3).png)
 
 Important to note: sandbox messages do show up in the **Sandbox** tab on the **Message Log**. This allows you to send messages from your local development environment or your CI and test the full interaction without sending live messages. You can preview the contents of the messages as well, allowing a rich inbox experience for local development.
 

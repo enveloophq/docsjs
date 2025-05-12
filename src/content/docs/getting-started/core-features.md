@@ -11,7 +11,7 @@ Building a message is simple -- you can start from scratch or use templates, gro
 
 
 
-![Enveloop Message Builder](/docs-images/Screenshot%202023-02-08%20at%203.31.40%20PM.png)
+![Enveloop Message Builder](/images/Screenshot%202023-02-08%20at%203.31.40%20PM.png)
 
 ### Message API
 
@@ -19,13 +19,13 @@ Along with a powerful message builder, Enveloop includes a simple API for trigge
 
 Included are well-organized SDKs for the most popular languages.&#x20;
 
-![Screenshot of Enveloop API SDKs](/docs-images/Screenshot%202023-02-08%20at%203.59.02%20PM.png)
+![Screenshot of Enveloop API SDKs](/images/Screenshot%202023-02-08%20at%203.59.02%20PM.png)
 
 ### Templates
 
 Enveloop includes templates for popular / oft-needed transactional messages, in varying styles and colors. These templates are perfect to use as-is or, if you want to make messages match your branding, to give you inspiration when designing and building your own messages in Enveloop.
 
-![Enveloop Templates](/docs-images/Screenshot%202023-02-08%20at%204.32.15%20PM.png)
+![Enveloop Templates](/images/Screenshot%202023-02-08%20at%204.32.15%20PM.png)
 
 ### Integrations
 
@@ -39,4 +39,4 @@ Easily keep track of all the messages you have sent. Along with seeing what your
 
 Enveloop logs both **Sandbox** and **Production/Live** messages.
 
-![Enveloop Logging](/docs-images/Screenshot%202023-02-09%20at%204.16.57%20PM.png)
+![Enveloop Logging](/images/Screenshot%202023-02-09%20at%204.16.57%20PM.png)

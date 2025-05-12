@@ -17,7 +17,7 @@ Enveloop Send allows you to easily configure and send emails from an individual 
 
 Once you've **created your Enveloop account** and are ready to set up sending, choose **Mail Settings**, located in the left-side navigation.
 
-![Sender ID Step 1](/docs-images/sender-id-01.png)
+![Sender ID Step 1](/images/sender-id-01.png)
 
 Click on the **Add Sender ID** button.
 
@@ -39,7 +39,7 @@ Once back in Enveloop, you'll notice a **Yellow Shield** icon. This icon will re
 
 There is nothing more you need to do at this point – Enveloop will continue to check your domain every 20-30 seconds to verify everything is proper. The entire process should take around 60 seconds.
 
-![Sender ID Step 3](/docs-images/sender-id-03.png)
+![Sender ID Step 3](/images/sender-id-03.png)
 
 Once the domain-based DKIM record has been verified, you'll see a **Green Shield** icon. From there, you are all set to start sending!
 

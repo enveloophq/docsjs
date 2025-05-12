@@ -10,7 +10,7 @@ Now that you have created and tested a message, you can publish/deploy your mess
 You can do this by selecting the **Deploy** tab at top.
 
 
-![Deploy Tab Screenshot](/docs-images/Screen%20Shot%202022-12-15%20at%203.59.07%20PM.png)
+![Deploy Tab Screenshot](/images/Screen%20Shot%202022-12-15%20at%203.59.07%20PM.png)
 
 
 ### Publishing
@@ -23,7 +23,7 @@ While not covered in great detail in this doc, Publishing a template is a way to
 
 In the **Deploy** tab, Enveloop provides you with code snippets for HTTP as well as popular languages. All the variables you used when crafting your message are automatically injected into the code snippets.
 
-![Deploy Tab Code Snippets](/docs-images/Screen%20Shot%202022-12-15%20at%204.38.41%20PM.png)
+![Deploy Tab Code Snippets](/images/Screen%20Shot%202022-12-15%20at%204.38.41%20PM.png)
 
 *The Deploy tab includes an area with language support for making API calls with multiple languages.*
 
@@ -35,7 +35,7 @@ Once you programmatically send a message, either your Production or Sandbox Enve
 
 Each Project you create has a dedicated Message Log.
 
-![Enveloop Message Log](/docs-images/Screen%20Shot%202022-12-15%20at%205.01.49%20PM.png)
+![Enveloop Message Log](/images/Screen%20Shot%202022-12-15%20at%205.01.49%20PM.png)
 
 *The Enveloop Message Log allows you to see both production and sandbox messages as well as key response data.*
 

@@ -30,7 +30,7 @@ Webhooks are located on the _Project_ level in Enveloop -- this means that you c
 
 Click **Settings** in your Enveloop project navigation. In the General tab, you'll see an area labeled **Webhooks**. From here, you can create the webhooks that you need, expanding as your needs expand.
 
-![Webhooks Table](/docs-images/Pasted%20image%2020241001150852.png)
+![Webhooks Table](/images/Pasted%20image%2020241001150852.png)
 
 *Webhooks are available, per project, in Enveloop. You can find them in the Project Settings.*
 
@@ -42,7 +42,7 @@ Click the **Add Webhook** button and you will be presented with a dialog allowin
 
 After providing these settings, save the webhook and you are now ready to use the webhook when the defined event occurs.
 
-![Create Webhook Dialog](/docs-images/Screenshot%202024-10-01%20at%203.08.50%20PM.png)
+![Create Webhook Dialog](/images/Screenshot%202024-10-01%20at%203.08.50%20PM.png)
 
 *You can create an Enveloop webhook by including a URL and the event you want to monitor.*
 
