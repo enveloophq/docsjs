@@ -5,8 +5,12 @@ import rehypeMermaid from 'rehype-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
+	redirects: {
+		'/': '/getting-started/introduction-to-enveloop',
+	},
 	integrations: [
 		starlight({
+
 			title: 'Enveloop Docs',
 			social: [{ icon: 'github', label: 'GitHub Repo', href: 'https://github.com/enveloophq/docsjs' }],
 			sidebar: [
@@ -29,6 +33,10 @@ export default defineConfig({
 				{
 					label: 'Settings',
 					autogenerate: { directory: 'settings' },
+				},
+				{
+					label: 'Enveloop API',
+					autogenerate: { directory: 'enveloop-api' },
 				},
 				{
 					label: 'Integrations',

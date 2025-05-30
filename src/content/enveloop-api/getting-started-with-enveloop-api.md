@@ -1,13 +1,9 @@
 ---
 title: Getting Started
-layout: default
-parent: Enveloop API
-nav_order: 1
+description: "Get started using the Enveloop API to send messages from your app."
 ---
 
-# Getting Started with the Enveloop API
-
-## API Tokens
+#### API Tokens
 
 To connect to the Enveloop API you will need to create an **API Token** for the project you want to interact with. After logging into your Enveloop account, go to the **Settings** page for the _Project_ you are in.
 
@@ -28,6 +24,6 @@ There are two types of API tokens associated with a project:
 
 Important to note: sandbox messages do show up in the **Sandbox** tab on the **Message Log**. This allows you to send messages from your local development environment or your CI and test the full interaction without sending live messages. You can preview the contents of the messages as well, allowing a rich inbox experience for local development.
 
-### Multiple Tokens
+#### Multiple Tokens
 
 You can create more than one token and use tokens for different needs, such as separating environments, testing specific functionalities, or managing access control for different parts of your application.
