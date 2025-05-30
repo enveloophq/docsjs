@@ -5,6 +5,7 @@ import rehypeMermaid from 'rehype-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
+	base: '/docs',
 	redirects: {
 		'/': '/getting-started/introduction-to-enveloop',
 	},
@@ -16,15 +17,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Getting Started',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Introduction to Enveloop', slug: 'getting-started/introduction-to-enveloop' },
-						{ label: 'Core Features', slug: 'getting-started/core-features' },
-						{ label: 'Creating a Template', slug: 'getting-started/creating-a-template' },
-						{ label: 'Deploying Your First Message', slug: 'getting-started/deploying-your-first-message' },
-						{ label: 'Formatting Dynamic Content', slug: 'getting-started/formatting-dynamic-content' },
-						{ label: 'Adding a Sending Domain', slug: 'getting-started/adding-a-sending-domain' },
-					],
+					autogenerate: { directory: 'getting-started'},
 				},
 				{
 					label: 'Product Guides',
