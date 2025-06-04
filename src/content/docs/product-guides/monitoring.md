@@ -1,6 +1,8 @@
 ---
 title: "Monitoring"
 description: "To use Enveloop Monitoring, you need to have [set up a Sending Domain](../getting-started/adding-a-sending-domain.html) with us. It only takes a moment and we step you through everything!"
+sidebar:
+  order: 6
 ---
 
 To use Enveloop Monitoring, you need to have [set up a Sending Domain](../getting-started/adding-a-sending-domain.html) with us. It only takes a moment and we step you through everything!

@@ -1,6 +1,8 @@
 ---
 title: "Markdown for Formatting"
 description: "Instead of asking our users to battle WYSIWYG editors, common in many apps, we have provided full support for Markdown."
+sidebar:
+  order: 1
 ---
 
 Instead of asking our users to battle WYSIWYG editors, common in many apps, we have provided full support for Markdown.&#x20;

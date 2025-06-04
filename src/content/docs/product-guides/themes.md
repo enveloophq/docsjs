@@ -1,6 +1,8 @@
 ---
 title: "Themes"
 description: "Enveloop Themes allow you to create and mange the usage of colors across the message templates that you host on Enveloop. Themes extend the design capabilities of Enveloop templates in two powerful ways:"
+sidebar:
+  order: 4
 ---
 
 Enveloop Themes allow you to create and mange the usage of colors across the message templates that you host on Enveloop. Themes extend the design capabilities of Enveloop templates in two powerful ways:

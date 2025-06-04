@@ -1,8 +1,7 @@
 ---
 title: Deploying your First Message
-layout: default
-parent: Getting Started
-nav_order: 6
+sidebar:
+  order: 5
 ---
 
 Now that you have created and tested a message, you can publish/deploy your message template and, from there, call it programmatically from your app.

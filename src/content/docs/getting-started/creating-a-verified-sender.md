@@ -1,6 +1,8 @@
 ---
 title: "Creating a Verified Sender"
 description: If you don't have access to your full domain, you can still verify your specific email address and send from it -- it only takes a moment to set up.
+sidebar:
+  order: 7
 ---
 
 We've discussed [sending messages using any email address on a domain name](../../getting-started/adding-a-sending-domain), so let's take a look at another option -- a more _scoped_ approach to sending that's available to you.

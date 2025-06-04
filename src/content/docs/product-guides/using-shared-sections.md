@@ -1,6 +1,8 @@
 ---
 title: "Using Shared Sections"
 description: "Use Shared Sections to create global groups of content/styles – linked inside of multiple message templates."
+sidebar:
+  order: 5
 ---
 
 **Shared Sections** create _global_ groups of content/styles – linked inside of multiple message templates. For example, it's common to have all the messages you send out use the same header information and design.

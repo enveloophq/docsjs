@@ -1,6 +1,8 @@
 ---
 title: "Creating a Template"
 description: Message templates are the core of Enveloop. Learn how to build one!
+sidebar:
+  order: 3
 ---
 
 Creating your first template is simple. Inside a project, click the **Add Template** button to get started. From there, you can create a _Blank_ (or empty) Template or choose one of our _Designed_ transactional templates and modify it based on your needs.

@@ -1,6 +1,8 @@
 ---
 title: "Enveloop Features"
 description: "Learn about Enveloop's core features and how to use them."
+sidebar:
+  order: 2
 ---
 
 ### Message Builder
@@ -8,8 +10,6 @@ description: "Learn about Enveloop's core features and how to use them."
 Enveloop's powerful and easy-to-use message builder allows you to quickly create and design Email and SMS messages. Instead of trying to create HTML/CSS and paste it into your app, you can visually create and manage all your messaging in one central spot.
 
 Building a message is simple -- you can start from scratch or use templates, grouping your content into sections, and add in common elements such as images, buttons, dividers, and more.
-
-
 
 ![Enveloop Message Builder](/images/Screenshot%202023-02-08%20at%203.31.40%20PM.png)
 

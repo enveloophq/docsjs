@@ -1,6 +1,8 @@
 ---
 title: "Logging"
 description: "When creating Enveloop, we wanted to re-imagine how email and text message logging. Efficiency & speed-to-answer was the primary focus."
+sidebar:
+  order: 2
 ---
 
 When creating Enveloop, we wanted to re-imagine how email and text message logging. Efficiency & speed-to-answer was the primary focus.

@@ -1,6 +1,8 @@
 ---
 title: Hey, it's Enveloop!
 description: "Learn about Enveloop's organizational structure and how to get started."
+sidebar:
+  order: 1
 ---
 
 **Welcome!**

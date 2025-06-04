@@ -1,6 +1,8 @@
 ---
 title: "Adding a Sending Domain"
-description: "Set up Enveloop to send messages using your own sending domain."  
+description: "Set up Enveloop to send messages using your own sending domain."
+sidebar:
+  order: 6
 ---
 
 Enveloop is a full end-to-end email provider. You can set up your domains in the app and send using multiple email addresses.

@@ -1,6 +1,8 @@
 ---
 title: "Formatting / Dynamic Content"
 description: How to format text and use variables to display dynamic content
+sidebar:
+  order: 4
 ---
 
 There are various useful styling options available for Enveloop templates, sections and elements. Along with this, you'll want to have control over the basic formatting and use of text in your messages.
