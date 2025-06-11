@@ -31,7 +31,7 @@ Projects map 1-to-1 to your app. You create a project for each app that needs to
 
 Message templates contain both the design and the content (static & dynamic) for the messages that you need to send.
 
-You can add multiple templates, and within each template, you can preview how your message will be rendered, send test messages, and access code snippets that are auto-generated based on the dynamic content you want to use (via [Mustache](../product-guides/mustache-for-dynamic-content.md)).
+You can add multiple templates, and within each template, you can preview how your message will be rendered, send test messages, and access code snippets that are auto-generated based on the dynamic content you want to use (via [Mustache](/product-guides/mustache-for-dynamic-content)).
 
 ```mermaid
 graph TD
@@ -44,5 +44,4 @@ Frequently used sections can be saved as **shared sections**. This provides you 
 
 ### What's Next
 
-Now that you know the basics, you can [create and send your first template](creating-a-template.md). It only takes a couple of minutes!
-
+Now that you know the basics, you can [create and send your first template](/getting-started/creating-a-template). It only takes a couple of minutes!
