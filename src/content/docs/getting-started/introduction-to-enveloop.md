@@ -1,9 +1,11 @@
 ---
-title: Hey, it's Enveloop!
+title: Welcome to Enveloop Docs
 description: "Learn about Enveloop's organizational structure and how to get started."
 sidebar:
   order: 1
 ---
+
+![Enveloop Logo](/images/docs-background-rev-03.png) 
 
 **Welcome!**
 

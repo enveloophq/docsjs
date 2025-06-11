@@ -14,6 +14,7 @@ export default defineConfig({
 
 			title: 'Enveloop Docs',
 			social: [{ icon: 'github', label: 'GitHub Repo', href: 'https://github.com/enveloophq/docsjs' }],
+			customCss: ['/src/styles/global.css'],
 			sidebar: [
 				{
 					label: 'Getting Started',
